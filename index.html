@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 19 - https://www.wysiwygwebbuilder.com">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div id="wb_Text1" style="position:absolute;left:594px;top:8px;width:539px;height:24px;z-index:0;">
+<span style="background-color:#FFFFFF;color:#FF0000;font-family:'Arial Black';font-size:17px;"><strong>Discord Theme </strong></span><span style="color:#FF0000;font-family:Calibri;font-size:17px;"><strong>Made BY</strong></span><span style="color:#000000;font-family:'Segoe UI Emoji';font-size:16px;">🍌🎃</span><span style="color:#FF0000;font-family:Calibri;font-size:16px;">Dr.Berg</span><span style="color:#000000;font-family:'Segoe UI Emoji';font-size:16px;">🎃🍌</span></div>
+<div id="Html2" style="position:absolute;left:146px;top:32px;width:866px;height:126px;z-index:1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chose One Of My Files What I Made And Use In My Themes</title>
+    </head>
+<body>
+    <div class="form-container">
+        <h1 class="form-title">Chose One Of My Files What I Made And Use In My Themes</h1>
+        <form id="dropdown-form">
+            <select id="dropdown-options" name="options" class="dropdown" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="core.css">core</option>
+                <option value="transparency2.css">transparency</option>
+                <option value="option3"></option>
+            </select>
+            <br>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+    <script>
+        document.getElementById('dropdown-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            const dropdown = document.getElementById('dropdown-options');
+            const selectedOption = dropdown.value;
+            if (selectedOption) {
+                window.location.href = `${selectedOption}.html`; // Navigate to the selected file
+            }
+        });
+    </script>
+</body>
+</html></div>
+</body>
+</html>
