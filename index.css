@@ -45,7 +45,7 @@ body
             text-align: center;
             background-color: transparent;
             padding: 20px;
-            border-radius: 8px;
+            border-radius: 10px;
         }
 
         /* Title styling */
@@ -57,7 +57,7 @@ body
 
         /* Dropdown styling */
         .dropdown {
-            width: 200px;
+            width: 230px;
             padding: 10px;
             font-size: 16px;
             color: red;
